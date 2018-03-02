@@ -1,7 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: hadi
- * Date: 02/03/18
- * Time: 01:08 م
- */
+namespace API\api\controllers;
+
+use Barryvdh\Debugbar\Controllers\BaseController;
+
+class TestControllers extends BaseController {
+
+    public function index()
+    {
+        return 'test';
+    }
+}
